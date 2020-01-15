@@ -100,7 +100,7 @@ const Scene = {
 					audioLoader.load( 'musique/ducktales_music_nes_the_moon_theme.mp3', function( buffer ) {
 						sound.setBuffer( buffer );
 						sound.setLoop( true );
-						sound.setVolume( 0.5 );
+						sound.setVolume( 0.1 );
 						sound.play();
 					});
 
